@@ -1,0 +1,69 @@
+html{
+  background:  linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)
+  ), url('https://i.imgur.com/3a2lKe4.jpg') no-repeat center fixed;
+  background-size:cover;
+  background-color:darkgrey;
+}
+
+
+body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.search-container{
+  border: solid blanchedalmond;
+  background:linear-gradient(
+    rgba(194, 181, 181, 0.2), 
+    rgba(184, 175, 175, 0.714));
+  margin: 2% 30% 10px;  
+
+}
+#search-title{
+  color:rgba(221, 229, 248, 0.921);
+}
+.search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  
+}
+#search {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+#search:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* 
+input {
+  padding: 8px;
+  border-radius: 2px;
+  margin:5px;
+}
+
+img {
+  height: 200px;
+}
+
+button {
+  border: 1px solid black;
+  background-color: #cc4949;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+}
+
+
+
+
+*/
